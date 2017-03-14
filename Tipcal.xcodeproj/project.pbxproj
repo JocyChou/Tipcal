@@ -14,6 +14,7 @@
 		CCFB07551E75E81A00EFC677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFB07531E75E81A00EFC677 /* LaunchScreen.storyboard */; };
 		CCFB07601E75E81A00EFC677 /* TipcalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFB075F1E75E81A00EFC677 /* TipcalTests.swift */; };
 		CCFB076B1E75E81A00EFC677 /* TipcalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFB076A1E75E81A00EFC677 /* TipcalUITests.swift */; };
+		CCFB077D1E760B6000EFC677 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFB077C1E760B6000EFC677 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CCFB07661E75E81A00EFC677 /* TipcalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipcalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFB076A1E75E81A00EFC677 /* TipcalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipcalUITests.swift; sourceTree = "<group>"; };
 		CCFB076C1E75E81A00EFC677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFB077C1E760B6000EFC677 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				CCFB074A1E75E81A00EFC677 /* AppDelegate.swift */,
 				CCFB074C1E75E81A00EFC677 /* ViewController.swift */,
+				CCFB077C1E760B6000EFC677 /* SettingViewController.swift */,
 				CCFB074E1E75E81A00EFC677 /* Main.storyboard */,
 				CCFB07511E75E81A00EFC677 /* Assets.xcassets */,
 				CCFB07531E75E81A00EFC677 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				CCFB074D1E75E81A00EFC677 /* ViewController.swift in Sources */,
 				CCFB074B1E75E81A00EFC677 /* AppDelegate.swift in Sources */,
+				CCFB077D1E760B6000EFC677 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
